@@ -1,5 +1,8 @@
 # To-Do List
-* JavaScript required to produce
+* Learn the JavaScript required to produce tabs
+* Come up with interesting color palettes
+* Building website
+* Building content
 
 # Content Assignments
 * Ellie - Pregnancy
@@ -15,7 +18,7 @@
 * Day 7 (Friday) - Yaaaay we done (hopefully)
 
 # Most Current Design Plan
-[]()
+![IMG](https://raw.githubusercontent.com/ellieya/innolab_proj2_group5/master/concept/design%20idea/Group%20Prototype%201.png)
 
 
 .kra files can be opened with [Krita](https://krita.org/) (free software), but .png files have the same content as .kra.
