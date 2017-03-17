@@ -16,3 +16,6 @@
 
 # Most Current Design Plan
 []()
+
+
+.kra files can be opened with [Krita](https://krita.org/) (free software), but .png files have the same content as .kra.
