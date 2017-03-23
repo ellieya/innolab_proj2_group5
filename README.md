@@ -5,6 +5,9 @@ Meetings to review progress will occur every day during class~
 PLEASE TELL ME IF YOU FEEL OVERWORKED, WE WILL REASSIGN DUTIES.
 ALSO PLEASE TELL ME IF YOU FEEL LIKE THERE'S ANYTHING WE COULD ADD TO THE LIST.
 
+## To-Do
+* Friday: WRITING CONTENT!!!
+
 ## Ellie
 1. Main JavaScript
 1. Planner
