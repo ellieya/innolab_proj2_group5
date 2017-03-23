@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/js.js"></script>
+<script type="text/javascript"> 
+	$(document).ready(function(){
+		var tabs = $('.tabs');
+var panels = $('.panel')
+
+tabs.on('click', 'a', function (e) {
+	e.preventDefault();
+	var id = $(this).attr('href');
+	
+	panels.filter(':not([hidden])').attr('hidden',true);
+	$(id).removeAttr('hidden');
+
+	tabs.find('.js-current').removeClass('js-current');
+	$(this).addClass('js-current');
+});
+	});
+	
+	</script>
+</head>
+<body>
+
+	<div id="header">
+	<div id="p1" ><img src="img/girl.jpg"></div>
+		<h1>test</h1>
+	</div>
+	<div id="main">
+		<div id="contain">
+			<div id="box1">
+				<div class="b" id="b1"><img src="img/appl.png"></div>
+				<div class="b" id="b2"><img src="img/pencil.jpg"></div>
+				<div class="b" id="b3"><img src="img/book.jpeg"></div>
+				<div class="b" id="b4"><img src="img/kid.jpg"></div>
+			</div>
+			<div id="box2">
+				<ul class="tabs">
+					<li><a class="js-current" href="t1"></a>Tab1</li>
+					<li><a href="t2"></a>Tab2</li>
+					<li><a href="t3"></a>Tab3</li>
+				</ul>
+				<div class="tab-panels">
+					<div class="panel" id="t1">
+						<h2>Tab1</h2>						
+					</div>
+					
+					<div class="panel" id="t2" hidden>
+						<h2>Tab2</h2>
+						<p>hi</p>
+					</div>
+
+					<div class="panel" id="t3" hidden>
+						<h2>Tab3</h2>
+						<p>bye</p>
+					</div>					
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div id="footer"></div>
+
+</body>
+</html>
