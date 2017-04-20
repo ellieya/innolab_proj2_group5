@@ -1,0 +1,37 @@
+.tabs {
+    position:fixed;
+    bottom:35px;
+    right:0;
+    z-index:50;
+}
+.tabs li {
+    list-style-type: none;
+    width:300px;
+    margin:4px;
+    padding: 3px 2px;
+    margin-left:0;
+    border: 1px solid white;
+    border-right:0;
+    border-radius: 7px 0 0 7px ;
+    background-color: white;
+    white-space:nowrap;
+    border-left: 10px solid skyblue;
+    opacity:0.5;
+    cursor:pointer;
+    color:black;
+}
+
+li a {
+    color:black;
+}
+
+
+.tabs li:hover {
+    opacity:1;
+}
+
+
+@keyframes tabs-extrude {
+    from {width:250px;}
+    to {width:400px;}
+}

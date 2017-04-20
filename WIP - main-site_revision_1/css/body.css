@@ -1,0 +1,47 @@
+body{
+    /* Size */
+	height: 100%;
+	width: 100%;
+    background-color:gray;
+}
+body #header {
+    /* Style */
+	background: linear-gradient(to bottom, black, gray);
+    /* Size */
+	height: 80px;
+	width: 100%;
+    /* Position */
+    position:fixed;
+	display:flex;
+}
+
+#header h1{
+	font-family: impact, sans-serif;
+    text-shadow:0 0 5px black;
+    color:white;
+	font-size: 55px;
+	text-align: center;
+	margin: auto;
+}
+
+
+body #content-container {
+    /* Style */
+    border: 5px skyblue ridge;
+	background-color: white;
+    border-radius:2px;
+    /* Size */
+    width:100%;
+    height:1080px;
+    box-sizing:border-box;
+    padding:15px;
+    /* Position */
+	position:fixed;
+    top:80px; /* equal to header height. Do not forget to add any top or bottom padding. */
+    left: 120px; /* equal to side bar width. Do not forget to add any left or right padding. */
+}
+
+h2 {
+    padding: 3px;
+    margin-bottom:3px;
+}

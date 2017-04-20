@@ -1,0 +1,154 @@
+
+* {
+    margin:0;
+    padding:0;
+    font-family:verdana;
+}
+
+    /* Body */
+
+body{
+    /* Size */
+	height: 100%;
+	width: 100%;
+  background: #141E30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+}
+
+   /* Header */
+
+body #header {
+    /* Style */
+    /* Size */
+	height: 100px;
+	width: 50%;
+    /* Position */
+    position:fixed;
+	display:flex;
+  top: 0;
+}
+
+#header h1{
+  border: 5px skyblue outset;
+  font-family: 'Open Sans', sans-serif;
+    text-shadow:0 0 5px black;
+    color:white;
+	font-size: 25px;
+	text-align: right;
+	margin: auto;
+  padding: 20px 20px;
+}
+  /* Navigation Bar */
+
+  ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 20px;
+      overflow: hidden;
+      background-color: transparent;
+      position: fixed;
+    top: 0;
+    width: 50%;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 10px;
+      margin: 5px;
+      text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+      background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+
+   /* Main Container */
+
+
+
+body #content-container {
+    /* Style */
+    border: 5px skyblue ridge;
+	background-color: black;
+  opacity:0.35;
+    border-radius:2px;
+    /* Size */
+    width:100%;
+    height:75%;
+    box-sizing:border-box;
+    padding:15px;
+    /* Position */
+	position:fixed;
+    top:110px; /* equal to header height. Do not forget to add any top or bottom padding. */
+    left: 0px;
+}
+
+h2 {
+    padding: 3px;
+    margin-bottom:3px;
+}
+
+
+   /* Tabs*/
+
+   .tabber button {
+       color:white;
+       border: 5px outset darkgray;
+       border-bottom: 0px;
+       border-left:0px;
+       border-radius:8px 8px 0 0;
+       background: gray;
+       padding:3px 10px;
+       min-width:75px;
+       /* Cursor */
+       cursor:pointer;
+   }
+   button:active {
+       border-style:inset;
+   }
+
+
+    /* Footer */
+
+#footer {
+    /* Style */
+    background-color: black;
+    opacity:0.25;
+    color:white;
+    text-shadow: 0 0 1px black;
+    text-align:right;
+    font-family:times;
+    font-size:10px;
+    /* Size */
+    width:100%;
+    height: 35px;
+    /* Position */
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+a{
+  color: white;
+}

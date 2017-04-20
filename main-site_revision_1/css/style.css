@@ -1,0 +1,111 @@
+body{
+	height: 850px;
+	width: 100%;
+	margin:0;
+}
+#header {
+	background-color: rgb(227,240,165);
+	height: 10%;
+	width: 100%;
+	display: flex;
+}
+#p1 {
+	height: 100%
+}
+#p1 img{
+	max-height: 100px;
+}
+#header h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 55px;
+	text-align: center;
+	margin: auto
+}
+#main {
+	background-color: red;
+	height: 80%;
+	width: 100%;
+}
+#contain {
+	height: 100%;
+	width: 100%;
+	background-color: green;
+	margin: auto;
+	display: flex;
+	justify-content: flex-start;
+}
+#box1 {
+	height: 100%;
+	width: 7%;	
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.b {
+	height: 24%;
+	width: 100%;
+}
+.b img{
+	height: 100%;
+	width: 95%; 
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 100%;
+	border-color: skyblue;
+	background-color: white;
+	margin-left: 2px;
+}
+.b:hover {
+	background-color: gray;
+}
+/*#b1 {
+	background-color: brown;
+}
+#b2 {
+	background-color: green;
+}
+#b3 {
+	background-color: white;
+}
+#b4{
+	background-color: black;
+}*/
+#box2 {
+	height: 100%;
+	width: 93%;
+	padding-left: 10px;
+	border-style: solid;
+	border-color: seagreen;
+	border-width: 3px;
+	background-color: white;
+	float: left;
+	display: flex;
+	flex-direction: column;
+}
+.tabs {
+	margin-bottom: 0;
+}
+.tabs li:hover {
+	background-color: gray;
+}
+.tabs li{
+	display: inline-block;
+	margin: 0;
+	width: 111px;
+	border-style: solid;
+	border-width: 2px;
+	border-top-left-radius: 35%;
+	border-top-right-radius: 35%;
+	text-align: center;
+}
+.tab-panels {
+	background-color: skyblue;
+	height: 90%;
+	width: 99%;
+}
+#footer {
+	height: 10%;
+	width: 100%;
+	background-color: white;
+}

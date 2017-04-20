@@ -1,0 +1,68 @@
+#sb-container {
+    /* Style */
+	background:linear-gradient(to bottom, gray 500px, #dcdcdc);
+    /* Size */
+	height: 100%;
+    width:100px;
+    padding:10px;
+    /* Positioning */
+    position:fixed;
+    top:79px; /* this should be equal to the height of the header */
+}
+.b {
+    /* Style */
+    border: 5px skyblue outset;
+    border-radius:100%;
+    /* Size */
+    width:95px;
+    height:95px;
+    /* Position */
+    position:relative; /* Required to be considered parent/ancestor for position:absolute */
+    margin: 10px 0;
+    /* Cursor */
+    cursor: pointer;
+}
+
+.b img{
+    /* Style */
+	border-radius: 100%;
+    filter:grayscale(100%);
+    /* Size */
+    width:inherit;
+    height:inherit;
+    box-sizing: border-box;
+    /* Position */
+    position:absolute;
+    z-index:-900;
+}
+
+.b .text {
+    /* Style */
+    background: linear-gradient(to right, transparent, black, transparent);
+    white-space:nowrap;
+    /* Center Text */
+    display:flex;
+    justify-content: center;
+    /* Vertical Align */
+    /* If anyone has a better way to vertically align please change, because right now any item w/ more than one sentence won't center. I've added a workaround in white-space nowrap to prevent it from going to 2 sentences but that also causes some text to be unreadable */
+    position:relative; /* Personal Note: It seems to work even without position:absolute, I wonder why? */
+    top: 50%;
+    /* Functionality */
+    visibility:hidden;
+}
+.b p {
+    /* Style */
+    color:white;
+    font-size:12px;
+    text-shadow: 0 0 1px black; /* To allow viewing of overflowing text */
+}
+
+
+/* The hover stuff */
+.b:hover .text {
+	visibility:visible;
+}
+.b:hover img {
+    box-shadow:0 0 5px white;
+    filter:grayscale(0%);
+}

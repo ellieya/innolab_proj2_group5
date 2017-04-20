@@ -1,0 +1,43 @@
+/*
+Revisions - CSS (Ellie)
+1) removed all CSS related to tabs
+2) Separated CSS into multiple files for easier group multitasking & organization
+3) Moved margin:0; from body to *, added padding:0;
+4) Items related to p1 commented
+5) added missing ; to #p1 height & header h1 margin properties
+6) Moved #header h1 rule to right under #header rule
+7) Deleted #container, transferred properties to #main
+8) #main renamed to #main-container
+9) All comments removed (except for this one) in order to clean up code. They will be backed up in a separate file.
+10) #box1/2 renamed to respective containers
+Code bloat on all borders reduced
+Added comments for easier organization.
+Adjusted .b img size
+removed all properties from .b
+added padding to #sb-container
+added position:fixed to sb-container
+
+ok I changed way more than this but it's starting to waste my time typing this out
+
+*/
+* {
+    margin:0;
+    padding:0;
+    font-family:verdana;
+}
+
+#footer {
+    /* Style */
+    background:linear-gradient(to left, black, gray, transparent);
+    color:white;
+    text-shadow: 0 0 1px black;
+    text-align:right;
+    font-family:times;
+    font-size:10px;
+    /* Size */
+    width:100%;
+    /* Position */
+    position:fixed;
+    bottom:0;
+    right:0;    
+}

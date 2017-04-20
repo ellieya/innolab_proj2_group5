@@ -1,0 +1,27 @@
+* {
+margin:0;
+padding;0;
+}
+body{
+width:100%;
+background: #141E30; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#textarea{
+  position: absolute;
+  z-index:3000;
+  font-family: 'Open Sans', sans-serif;
+
+}
+h1{
+  font-weight: bolder;
+}
+h4{
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+video {
+opacity: 0.15;
+}

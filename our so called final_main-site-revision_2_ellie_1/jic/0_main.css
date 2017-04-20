@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:verdana;
+}
+#bg {
+    position:fixed;
+    bottom:0;
+    right:0;
+    height:100%;
+    filter:grayscale(100%);
+}
+body {
+    background-color:#141E30;
+}
+body #main-content {
+    position:absolute;
+    top:50px;
+}
+#main-content .content {
+    margin-top:20px;
+    margin-left:20px;
+    width: 60%;
+    color:#f9f9f9;
+}
+#main-content h1 {
+    background:linear-gradient(to right, cyan, transparent);
+    padding:5px;
+}
+
+#main-content h1,h2,h3 {
+   font-family:gothic;
+    margin-bottom:10px;
+}
